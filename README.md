@@ -1,4 +1,4 @@
-# Vehicular-RLCO
+# STEROCEN
 
 Simulation and Training Environment for Resource Orchestration in Cloud-Edge Networks.
 
