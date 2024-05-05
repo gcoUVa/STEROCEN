@@ -108,7 +108,7 @@ agents = []
 exploration_func = env.action_space.sample
 obs_size = env.observation_space.shape[0]
 n_actions = env.action_space.n
-"""
+
 ## --- DQN agents ----------------
 
 # Discount factors
@@ -145,7 +145,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- DDQN agents ---------------
 
@@ -183,7 +183,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- Categorical DQN agents ----
 
@@ -221,7 +221,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- Categorical DDQN agents ---
 
@@ -259,7 +259,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- Residual DQN agents -------
 
@@ -297,7 +297,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- IQN agents ----------------
 
@@ -333,7 +333,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- DoubleIQN agents ----------
 
@@ -369,7 +369,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## --------------------------------
 ## --- DPP agents -----------------
 
@@ -410,7 +410,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- SARSA agents --------------
 
@@ -448,9 +448,8 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
-"""
 ## --- AL agents -----------------
 
 # Discount factors
@@ -490,7 +489,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- PAL agents ----------------
 
@@ -531,7 +530,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- DoublePAL agents ----------
 
@@ -572,7 +571,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- PCL agents ----------------
 
@@ -608,7 +607,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- REINFORCE agents ----------
 
@@ -634,10 +633,11 @@ for j in range(len(beta)): # For example go through beta
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- SAC agents ----------------
 # TODO (doesn't work)
+"""
 # Discount factors
 gammas = [0.5]
 
@@ -667,7 +667,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- TD3 agents ----------------
 # TODO (doesn't work)
@@ -704,7 +704,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+"""
 ## -------------------------------
 ## --- TRPO agents ---------------
 
@@ -737,7 +737,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- A3C agents ----------------
 
@@ -769,7 +769,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+
 ## -------------------------------
 ## --- PPO agents ----------------
 
@@ -802,7 +802,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+"""
 ## --------------------------------
 ## --- ACER agents ----------------
 # TODO (it doesn't work)
@@ -840,7 +840,7 @@ for j in range(len(gammas)): # For example go through gammas
     agents.append(agent_replicas)
 train_results = train_scenario(env, agents)
 test_results = test_scenario(env, agents)
-raise KeyboardInterrupt("end")
+"""
 ## -------------------------------
 
 ## Launch simulations
