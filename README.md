@@ -59,6 +59,10 @@ There are two supported metrics:
   - If output package did arrive to source within max latency: +*priority*
   - If output package did not arrive to source within max latency: -*priority*
 
+## Software architecture
+
+![Alt text](https://github.com/gcoUVa/STEROCEN/blob/master/software_architecture.png)
+
 ## How to use
 
 ### Creating a simulation
