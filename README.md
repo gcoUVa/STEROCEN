@@ -132,7 +132,13 @@ Additionally, the example use case using DRL and heuristic algorithms was tested
 
 ## How to cite
 
-M. Ferens et al., "Deep Reinforcement Learning Applied to Computation Offloading of Vehicular Applications: A Comparison," 2022 International Balkan Conference on Communications and Networking (BalkanCom), 2022, pp. 31-35, doi: 10.1109/BalkanCom55633.2022.9900545.
+**Preferred**:
+
+M. Ferens et al., "STEROCEN: Simulation and Training Environment for Resource Orchestration in Cloud-Edge Networks," *2024 International Conference on Networks of the Future (NoF)*, 2024, *accepted*.
+
+**Alternative**:
+
+M. Ferens et al., "Deep Reinforcement Learning Applied to Computation Offloading of Vehicular Applications: A Comparison," *2022 International Balkan Conference on Communications and Networking (BalkanCom)*, 2022, pp. 31-35, doi: 10.1109/BalkanCom55633.2022.9900545.
 
 ## Other citations
 
